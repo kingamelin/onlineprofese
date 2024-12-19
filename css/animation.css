@@ -1,0 +1,17 @@
+@keyframes bounce-effect {
+    0%, 6%, 15%, 24%, 30%, to {
+    animation-timing-function: cubic-bezier(.215, .61, .355, 1);
+    transform: translateZ(0);
+    }
+    12%, 13% {
+        animation-timing-function: cubic-bezier(.755, .05, .855, .06);
+        transform: translate3d(0, -2.8em, 0);
+    }
+    21% {
+        animation-timing-function: cubic-bezier(.755, .05, .855, .06);
+        transform: translate3d(0, -1.9em, 0);
+    }
+    27% {
+        transform: translate3d(0, -1.25em, 0);
+    }
+}
